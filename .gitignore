@@ -1,0 +1,39 @@
+# === JetBrains ===
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Env ===
+.env
+.env.*
+!.env.example
+
+# === Logs / Temp ===
+*.log
+tmp/
+temp/
+*.tmp
+
+# === apps/web (Astro) ===
+apps/web/node_modules/
+apps/web/.astro/
+apps/web/.output/
+apps/web/dist/
+
+# === apps/api (Python) ===
+apps/api/__pycache__/
+apps/api/**/*.py[cod]
+apps/api/*.egg-info/
+apps/api/build/
+apps/api/.venv/
+apps/api/.coverage
+apps/api/.coverage.*
+apps/api/.pytest_cache/
+apps/api/htmlcov/
+apps/api/.tox/

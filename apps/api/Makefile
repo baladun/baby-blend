@@ -1,0 +1,13 @@
+.PHONY: dev lint test
+
+dev:
+	uvicorn main:app --reload --host 0.0.0.0 --port 8000
+
+lint:
+	ruff check .
+
+test:
+	pytest
+
+format:
+	ruff format .

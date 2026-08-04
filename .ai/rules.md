@@ -46,6 +46,8 @@ Monorepo:
 - Functional style: logic in functions, data in Pydantic/dataclass
 - Avoid service classes (UserService, Manager, etc.)
 - Minimal abstractions — MVP first
+- Catch specific exceptions, not bare `Exception`; unknown errors should crash (500), not be masked as business errors
+- No code smell: no dead code, no unused imports, no catch-all masking, no defensive try/except without clear intent
 
 ## Constraints
 

@@ -37,3 +37,4 @@ apps/api/.coverage.*
 apps/api/.pytest_cache/
 apps/api/htmlcov/
 apps/api/.tox/
+apps/api/uploads/
